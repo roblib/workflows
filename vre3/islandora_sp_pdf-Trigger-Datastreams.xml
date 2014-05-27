@@ -1,0 +1,8 @@
+
+<methods>
+  <method type="addDatastream">
+    <trigger id="MOL">
+      <t2flow id="MOL_WORKFLOW"></t2flow>
+    </trigger>
+  </method>
+</methods>

@@ -1,0 +1,11 @@
+
+<methods>
+  <method type="ingest">
+    <t2flow id="INGEST_WORKFLOW"></t2flow>
+  </method>
+  <method type="addDatastream">
+    <trigger id="CALAIS">
+      <t2flow id="OPEN-CALAIS-WORKFLOW"></t2flow>
+    </trigger>
+  </method>
+</methods>

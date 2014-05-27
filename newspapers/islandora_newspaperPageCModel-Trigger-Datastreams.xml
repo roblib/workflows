@@ -1,0 +1,11 @@
+
+<methods>
+  <method type="addDatastream">
+    <trigger id="OBJ">
+      <t2flow id="INGEST_WORKFLOW"></t2flow>
+    </trigger>
+  </method>
+  <method type="ingest">
+    <t2flow id="INGEST_WORKFLOW"></t2flow>
+  </method>
+</methods>

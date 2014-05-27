@@ -1,0 +1,16 @@
+
+<methods>
+  <method type="ingest">
+    <t2flow id="INGEST_WORKFLOW"></t2flow>
+  </method>
+  <method type="modifyDatastreamByValue">
+    <trigger id="DC">
+      <t2flow id="UPDATE_RELS_INT"></t2flow>
+    </trigger>
+  </method>
+  <method type="modifyDatastreamByReference">
+    <trigger id="DC">
+      <t2flow id="UPDATE_RELS_INT"></t2flow>
+    </trigger>
+  </method>
+</methods>
